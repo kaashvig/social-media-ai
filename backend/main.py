@@ -2,18 +2,11 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import List
 
-# Phase 1 - ML & Analytics
-from model import predict_heavy_user, predict_heavy_user_proba
-from analytics import usage_summary
-
-# Phase 2 - Privacy Layer
-from storage import save_prediction, load_history
-
-# NLP Modules
-from nlp import analyze_sentiment, detect_mood, detect_toxicity
-from nlp_clustering import cluster_texts
-
-
+from backend.model import predict_heavy_user, predict_heavy_user_proba
+from backend.analytics import usage_summary
+from backend.storage import save_prediction, load_history
+from backend.nlp import analyze_sentiment, detect_mood, detect_toxicity
+from backend.nlp_clustering import cluster_texts
 app = FastAPI(
     title="Privacy-Preserving Social Media Analytics",
     version="4.0"
