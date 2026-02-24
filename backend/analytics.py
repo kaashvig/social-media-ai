@@ -1,13 +1,12 @@
-import pandas as pd
 import os
+import pandas as pd
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-PROJECT_ROOT = os.path.abspath(os.path.join(CURRENT_DIR, "..", ".."))
+PROJECT_ROOT = os.path.abspath(os.path.join(CURRENT_DIR, ".."))
 
-DATA_PATH = os.path.join(PROJECT_ROOT, "data", "social_media_usage.csv")
+CSV_PATH = os.path.join(PROJECT_ROOT, "data", "social_media_usage.csv")
 
-df = pd.read_csv(DATA_PATH)
-
+df = pd.read_csv(CSV_PATH)
 
 def usage_summary():
     return {
