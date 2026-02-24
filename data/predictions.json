@@ -1,0 +1,65 @@
+[
+    {
+        "timestamp": "2026-02-16T20:39:42.900450",
+        "Posts_Per_Day": 6,
+        "Likes_Per_Day": 12,
+        "Follows_Per_Day": 6,
+        "App": "Instagram",
+        "prediction": "Normal User",
+        "confidence": 0.02
+    },
+    {
+        "timestamp": "2026-02-16T20:58:36.237790",
+        "Posts_Per_Day": 5,
+        "Likes_Per_Day": 20,
+        "Follows_Per_Day": 6,
+        "App": "Instagram",
+        "prediction": "Normal User",
+        "confidence": 0.01
+    },
+    {
+        "timestamp": "2026-02-16T20:59:13.303320",
+        "Posts_Per_Day": 25,
+        "Likes_Per_Day": 350,
+        "Follows_Per_Day": 60,
+        "App": "Instagram",
+        "prediction": "Heavy User",
+        "confidence": 1.0
+    },
+    {
+        "timestamp": "2026-02-16T21:05:51.969183",
+        "Posts_Per_Day": 25,
+        "Likes_Per_Day": 350,
+        "Follows_Per_Day": 60,
+        "App": "Instagram",
+        "prediction": "Heavy User",
+        "confidence": 1.0
+    },
+    {
+        "timestamp": "2026-02-16T22:02:14.234545",
+        "Posts_Per_Day": 26,
+        "Likes_Per_Day": 346,
+        "Follows_Per_Day": 60,
+        "App": "Instagram",
+        "prediction": "Heavy User",
+        "confidence": 1.0
+    },
+    {
+        "timestamp": "2026-02-17T21:19:53.403111",
+        "Posts_Per_Day": 1,
+        "Likes_Per_Day": 0,
+        "Follows_Per_Day": 0,
+        "App": "Instagram",
+        "prediction": "Normal User",
+        "confidence": 0.0
+    },
+    {
+        "timestamp": "2026-02-17T21:38:11.435251",
+        "Posts_Per_Day": 5,
+        "Likes_Per_Day": 300,
+        "Follows_Per_Day": 450,
+        "App": "Instagram",
+        "prediction": "Heavy User",
+        "confidence": 1.0
+    }
+]

@@ -1,0 +1,33 @@
+# Core Backend
+fastapi
+uvicorn
+
+# Frontend
+streamlit
+requests
+
+# Data Processing
+pandas
+numpy
+
+# Machine Learning
+scikit-learn
+joblib
+
+# Visualization
+matplotlib
+plotly
+wordcloud
+
+# NLP - Transformers
+transformers
+torch
+
+# Sentence Embeddings
+sentence-transformers
+
+# Clustering & Dimensionality Reduction
+umap-learn
+
+# Optional Utilities
+python-multipart
