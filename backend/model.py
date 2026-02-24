@@ -4,9 +4,7 @@ import os
 
 # Resolve project root
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-PROJECT_ROOT = os.path.abspath(os.path.join(CURRENT_DIR, "..", ".."))
-
-# Load trained model
+PROJECT_ROOT = os.path.abspath(os.path.join(CURRENT_DIR, ".."))
 MODEL_PATH = os.path.join(PROJECT_ROOT, "final_heavy_user_model1.pkl")
 model = joblib.load(MODEL_PATH)
 
